@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/softservice.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <title>Softservice App</title>
+</head>
+	<title></title>
+</head>
+<body>
+	<div class="app">
+		<div class="app-header">
+			<p>Target Indicator Demo</p>
+		</div>
+		<main class="app-body">
+			<div class="app-content">
+				<div class="progress-visual">
+					<b class="progress-text">Reached:</b>
+					<div class="progress-container">
+						<div class="progress-background">
+							<div class="progress"></div>
+						</div>
+						<div class="slider-container">
+							<input type="range" min="0.0" max="15" step="1" value="0" class="progress-slider">
+							<span class="slider-value"></span>
+						</div>
+					</div>
+					<div class="target-block">
+						<span class="target-text">Target</span>
+						<span class="target-number">$15</span>
+					</div>
+				</div>
+				<div class="progress-left completed-text">
+					<p class="progress-left-text">You need <span class="amount-left"></span> more to reach your&nbsp;target</p>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	<script type="text/javascript" src="js/softservice.js"></script>
+</body>
+</html>
